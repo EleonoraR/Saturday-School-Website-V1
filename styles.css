@@ -1,0 +1,199 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,
+html * {
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gotham, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+header {
+  padding: 32px;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+main {
+	background-color: #a9f1df;
+  /*background-color: chartreuse;*/
+}
+
+footer {
+  padding: 20px 30px;
+}
+
+body {
+  background-color: #b1f0d7;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.school_name {
+  font-family: Comic Sans, Comic Sans MS, cursive;
+  text-align: center;
+  color: chocolate;
+  /* margin-left: auto; margin-right: auto; display: block; for image */
+}
+
+.nav_style ul {
+  list-style-type: none;
+}
+
+.nav_style ul li a {
+	font-size: 1rem;
+	font-weight: bold;
+  text-decoration: none;
+  /* color: #2F322A; */
+	text-shadow: 1px 1px 4px black;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.about_church {
+  background-image: url("draw.JPG");
+  background-size: cover;
+  padding: 20px 20px 50px 20px;
+	text-align: center
+}
+
+h1 {
+	text-shadow: 2px 3px 7px #334443;
+  font-size: 57px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom:18px;
+}
+
+h2 {
+  font-size: 57px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 23px;
+}
+
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 60px;
+}
+
+h4 {
+	font-family: 'Parisienne', cursive;
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-bottom: 35px;
+}
+
+p {
+  font-siz: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+.button {
+  border: 2px #FFFFFF solid;
+  padding: 8px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  ;
+}
+
+.teachers-style {
+  background-color: #b9a88e;
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+.teachers-style-rules {
+  background-color: #564a4a;
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+.col {
+  width: 100%;
+}
+
+.footer-text {
+	text-shadow: 2px 1px 5px black;
+  text-align: center;
+  font-size: 1rem;
+  margin: 20px 0;
+}
+/*Mobile view*/
+@media screen and (max-width: 767px){
+			h1{
+				font-size: 25px;
+			}
+			h2{
+				font-size: 20px;
+			}
+    }
+
+/*Tablet View*/
+@media screen and (min-width: 768px){
+  body {
+    max-width: 778px;
+  }
+
+	.nav_style ul li a {
+		font-size: 20px;
+	}
+
+  .nav_style ul li {
+    display: inline-block;
+  }
+
+  .nav_style ul {
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .col-md-one-half {
+    width: 50%;
+  }
+
+  .col {
+    float: left;
+    padding: 0px 4px 5px;
+  }
+}
+
+/*Desktop View*/
+@media screen and (min-width: 1024px) {
+  body {
+    max-width: 1200px;
+  }
+
+  .col-lg-one-fourth {
+    width: 25%;
+  }
+}
