@@ -141,14 +141,17 @@ p {
   font-size: 1rem;
   margin: 20px 0;
 }
+
+/*Media query for desktop, tablet and mobile view*/
+
 /*Mobile view*/
 @media screen and (max-width: 767px){
-			h1{
-				font-size: 25px;
-			}
-			h2{
-				font-size: 20px;
-			}
+	h1{
+		font-size: 25px;
+	}
+	h2{
+		font-size: 20px;
+	}
     }
 
 /*Tablet View*/
